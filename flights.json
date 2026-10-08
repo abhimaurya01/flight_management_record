@@ -1,0 +1,902 @@
+[
+  {
+    "flightId": "FL001",
+    "airline": "IndiGo",
+    "flightNumber": "6E101",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Mumbai",
+      "to": "Delhi",
+      "distanceKm": 1148
+    },
+    "departure": "08:00",
+    "arrival": "10:05",
+    "passengers": 165,
+    "seatsAvailable": 15,
+    "fare": 6200,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL002",
+    "airline": "Air India",
+    "flightNumber": "AI202",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Delhi",
+      "to": "Mumbai",
+      "distanceKm": 1148
+    },
+    "departure": "10:30",
+    "arrival": "12:40",
+    "passengers": 180,
+    "seatsAvailable": 10,
+    "fare": 6800,
+    "baggageLimitKg": 20,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL003",
+    "airline": "Air India",
+    "flightNumber": "AI414",
+    "aircraft": "Airbus A350",
+    "route": {
+      "from": "Kochi",
+      "to": "Varanasi",
+      "distanceKm": 1237
+    },
+    "departure": "05:15",
+    "arrival": "02:45",
+    "passengers": 102,
+    "seatsAvailable": 13,
+    "fare": 8959,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL004",
+    "airline": "Vistara",
+    "flightNumber": "VI709",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Lucknow",
+      "to": "Delhi",
+      "distanceKm": 994
+    },
+    "departure": "02:30",
+    "arrival": "03:15",
+    "passengers": 230,
+    "seatsAvailable": 11,
+    "fare": 10164,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL005",
+    "airline": "Air India",
+    "flightNumber": "AI307",
+    "aircraft": "Airbus A350",
+    "route": {
+      "from": "Mumbai",
+      "to": "Ahmedabad",
+      "distanceKm": 1757
+    },
+    "departure": "00:30",
+    "arrival": "14:30",
+    "passengers": 189,
+    "seatsAvailable": 13,
+    "fare": 4363,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL006",
+    "airline": "SpiceJet",
+    "flightNumber": "SP139",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Pune",
+      "to": "Lucknow",
+      "distanceKm": 1989
+    },
+    "departure": "10:45",
+    "arrival": "03:30",
+    "passengers": 193,
+    "seatsAvailable": 55,
+    "fare": 9842,
+    "baggageLimitKg": 30,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL007",
+    "airline": "Air India",
+    "flightNumber": "AI764",
+    "aircraft": "Airbus A350",
+    "route": {
+      "from": "Bengaluru",
+      "to": "Pune",
+      "distanceKm": 2018
+    },
+    "departure": "00:30",
+    "arrival": "08:30",
+    "passengers": 196,
+    "seatsAvailable": 7,
+    "fare": 6849,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL008",
+    "airline": "SpiceJet",
+    "flightNumber": "SP910",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Lucknow",
+      "to": "Goa",
+      "distanceKm": 483
+    },
+    "departure": "13:15",
+    "arrival": "23:15",
+    "passengers": 110,
+    "seatsAvailable": 12,
+    "fare": 13898,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL009",
+    "airline": "IndiGo",
+    "flightNumber": "IN955",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Jaipur",
+      "to": "Kolkata",
+      "distanceKm": 2061
+    },
+    "departure": "22:00",
+    "arrival": "14:00",
+    "passengers": 105,
+    "seatsAvailable": 11,
+    "fare": 7450,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL010",
+    "airline": "Vistara",
+    "flightNumber": "VI378",
+    "aircraft": "Boeing 737 MAX",
+    "route": {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "distanceKm": 1437
+    },
+    "departure": "09:45",
+    "arrival": "18:45",
+    "passengers": 249,
+    "seatsAvailable": 27,
+    "fare": 11150,
+    "baggageLimitKg": 25,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL011",
+    "airline": "Akasa Air",
+    "flightNumber": "AK108",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Hyderabad",
+      "to": "Kolkata",
+      "distanceKm": 1698
+    },
+    "departure": "03:45",
+    "arrival": "15:30",
+    "passengers": 241,
+    "seatsAvailable": 41,
+    "fare": 3268,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL012",
+    "airline": "Vistara",
+    "flightNumber": "VI157",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Kolkata",
+      "to": "Ahmedabad",
+      "distanceKm": 2071
+    },
+    "departure": "11:15",
+    "arrival": "13:00",
+    "passengers": 101,
+    "seatsAvailable": 15,
+    "fare": 8866,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL013",
+    "airline": "IndiGo",
+    "flightNumber": "IN616",
+    "aircraft": "Airbus A350",
+    "route": {
+      "from": "Goa",
+      "to": "Ahmedabad",
+      "distanceKm": 543
+    },
+    "departure": "05:45",
+    "arrival": "08:45",
+    "passengers": 123,
+    "seatsAvailable": 46,
+    "fare": 4330,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL014",
+    "airline": "Vistara",
+    "flightNumber": "VI512",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Goa",
+      "to": "Bengaluru",
+      "distanceKm": 1721
+    },
+    "departure": "18:00",
+    "arrival": "17:45",
+    "passengers": 132,
+    "seatsAvailable": 33,
+    "fare": 5121,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL015",
+    "airline": "IndiGo",
+    "flightNumber": "IN842",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Goa",
+      "to": "Mumbai",
+      "distanceKm": 2281
+    },
+    "departure": "00:30",
+    "arrival": "08:45",
+    "passengers": 131,
+    "seatsAvailable": 37,
+    "fare": 9567,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL016",
+    "airline": "Akasa Air",
+    "flightNumber": "AK920",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Hyderabad",
+      "to": "Kochi",
+      "distanceKm": 1993
+    },
+    "departure": "17:00",
+    "arrival": "12:00",
+    "passengers": 203,
+    "seatsAvailable": 35,
+    "fare": 7586,
+    "baggageLimitKg": 25,
+    "status": "Boarding"
+  },
+  {
+    "flightId": "FL017",
+    "airline": "Vistara",
+    "flightNumber": "VI898",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Srinagar",
+      "to": "Mumbai",
+      "distanceKm": 2170
+    },
+    "departure": "15:45",
+    "arrival": "12:00",
+    "passengers": 236,
+    "seatsAvailable": 50,
+    "fare": 7169,
+    "baggageLimitKg": 15,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL018",
+    "airline": "Air India",
+    "flightNumber": "AI203",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Hyderabad",
+      "to": "Bengaluru",
+      "distanceKm": 1139
+    },
+    "departure": "16:00",
+    "arrival": "23:00",
+    "passengers": 235,
+    "seatsAvailable": 35,
+    "fare": 10350,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL019",
+    "airline": "SpiceJet",
+    "flightNumber": "SP686",
+    "aircraft": "Boeing 737 MAX",
+    "route": {
+      "from": "Srinagar",
+      "to": "Chennai",
+      "distanceKm": 553
+    },
+    "departure": "05:15",
+    "arrival": "12:45",
+    "passengers": 176,
+    "seatsAvailable": 23,
+    "fare": 13073,
+    "baggageLimitKg": 15,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL020",
+    "airline": "Air India",
+    "flightNumber": "AI887",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Ahmedabad",
+      "to": "Lucknow",
+      "distanceKm": 1944
+    },
+    "departure": "21:15",
+    "arrival": "15:00",
+    "passengers": 170,
+    "seatsAvailable": 24,
+    "fare": 13614,
+    "baggageLimitKg": 15,
+    "status": "Boarding"
+  },
+  {
+    "flightId": "FL021",
+    "airline": "SpiceJet",
+    "flightNumber": "SP223",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Goa",
+      "to": "Chennai",
+      "distanceKm": 365
+    },
+    "departure": "00:30",
+    "arrival": "02:45",
+    "passengers": 188,
+    "seatsAvailable": 1,
+    "fare": 8629,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL022",
+    "airline": "SpiceJet",
+    "flightNumber": "SP292",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Srinagar",
+      "to": "Jaipur",
+      "distanceKm": 2457
+    },
+    "departure": "04:30",
+    "arrival": "19:45",
+    "passengers": 203,
+    "seatsAvailable": 2,
+    "fare": 10198,
+    "baggageLimitKg": 20,
+    "status": "Boarding"
+  },
+  {
+    "flightId": "FL023",
+    "airline": "SpiceJet",
+    "flightNumber": "SP444",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Kolkata",
+      "to": "Varanasi",
+      "distanceKm": 1474
+    },
+    "departure": "22:30",
+    "arrival": "14:15",
+    "passengers": 213,
+    "seatsAvailable": 51,
+    "fare": 9665,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL024",
+    "airline": "SpiceJet",
+    "flightNumber": "SP400",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Bengaluru",
+      "to": "Delhi",
+      "distanceKm": 317
+    },
+    "departure": "13:45",
+    "arrival": "02:45",
+    "passengers": 198,
+    "seatsAvailable": 7,
+    "fare": 3372,
+    "baggageLimitKg": 30,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL025",
+    "airline": "IndiGo",
+    "flightNumber": "IN836",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Kolkata",
+      "to": "Chennai",
+      "distanceKm": 561
+    },
+    "departure": "11:00",
+    "arrival": "17:00",
+    "passengers": 240,
+    "seatsAvailable": 6,
+    "fare": 3009,
+    "baggageLimitKg": 15,
+    "status": "Boarding"
+  },
+  {
+    "flightId": "FL026",
+    "airline": "IndiGo",
+    "flightNumber": "IN836",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Hyderabad",
+      "to": "Jaipur",
+      "distanceKm": 1567
+    },
+    "departure": "06:00",
+    "arrival": "04:15",
+    "passengers": 187,
+    "seatsAvailable": 36,
+    "fare": 7256,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL027",
+    "airline": "SpiceJet",
+    "flightNumber": "SP332",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Mumbai",
+      "to": "Ahmedabad",
+      "distanceKm": 1823
+    },
+    "departure": "17:00",
+    "arrival": "01:00",
+    "passengers": 197,
+    "seatsAvailable": 43,
+    "fare": 10323,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL028",
+    "airline": "Akasa Air",
+    "flightNumber": "AK397",
+    "aircraft": "Airbus A350",
+    "route": {
+      "from": "Pune",
+      "to": "Ahmedabad",
+      "distanceKm": 1821
+    },
+    "departure": "13:45",
+    "arrival": "07:45",
+    "passengers": 243,
+    "seatsAvailable": 0,
+    "fare": 13942,
+    "baggageLimitKg": 30,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL029",
+    "airline": "SpiceJet",
+    "flightNumber": "SP183",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Varanasi",
+      "to": "Mumbai",
+      "distanceKm": 917
+    },
+    "departure": "01:30",
+    "arrival": "18:00",
+    "passengers": 219,
+    "seatsAvailable": 40,
+    "fare": 13218,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL030",
+    "airline": "Akasa Air",
+    "flightNumber": "AK808",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Kochi",
+      "to": "Ahmedabad",
+      "distanceKm": 483
+    },
+    "departure": "19:45",
+    "arrival": "09:30",
+    "passengers": 181,
+    "seatsAvailable": 48,
+    "fare": 10569,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL031",
+    "airline": "Vistara",
+    "flightNumber": "VI296",
+    "aircraft": "Airbus A350",
+    "route": {
+      "from": "Mumbai",
+      "to": "Goa",
+      "distanceKm": 1851
+    },
+    "departure": "07:00",
+    "arrival": "02:00",
+    "passengers": 119,
+    "seatsAvailable": 51,
+    "fare": 3192,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL032",
+    "airline": "SpiceJet",
+    "flightNumber": "SP705",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Bengaluru",
+      "to": "Lucknow",
+      "distanceKm": 1297
+    },
+    "departure": "17:30",
+    "arrival": "12:30",
+    "passengers": 152,
+    "seatsAvailable": 22,
+    "fare": 6462,
+    "baggageLimitKg": 30,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL033",
+    "airline": "Akasa Air",
+    "flightNumber": "AK903",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Chennai",
+      "to": "Mumbai",
+      "distanceKm": 1105
+    },
+    "departure": "18:00",
+    "arrival": "14:45",
+    "passengers": 233,
+    "seatsAvailable": 36,
+    "fare": 7299,
+    "baggageLimitKg": 30,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL034",
+    "airline": "Air India",
+    "flightNumber": "AI657",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Ahmedabad",
+      "to": "Varanasi",
+      "distanceKm": 1165
+    },
+    "departure": "06:15",
+    "arrival": "16:30",
+    "passengers": 150,
+    "seatsAvailable": 6,
+    "fare": 3255,
+    "baggageLimitKg": 20,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL035",
+    "airline": "Vistara",
+    "flightNumber": "VI855",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Ahmedabad",
+      "to": "Hyderabad",
+      "distanceKm": 2161
+    },
+    "departure": "14:45",
+    "arrival": "01:30",
+    "passengers": 151,
+    "seatsAvailable": 32,
+    "fare": 9110,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL036",
+    "airline": "SpiceJet",
+    "flightNumber": "SP273",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Kochi",
+      "to": "Pune",
+      "distanceKm": 1785
+    },
+    "departure": "20:15",
+    "arrival": "02:00",
+    "passengers": 177,
+    "seatsAvailable": 37,
+    "fare": 14612,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL037",
+    "airline": "Air India",
+    "flightNumber": "AI523",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Mumbai",
+      "to": "Kochi",
+      "distanceKm": 2393
+    },
+    "departure": "04:30",
+    "arrival": "15:00",
+    "passengers": 234,
+    "seatsAvailable": 27,
+    "fare": 4242,
+    "baggageLimitKg": 30,
+    "status": "Boarding"
+  },
+  {
+    "flightId": "FL038",
+    "airline": "IndiGo",
+    "flightNumber": "IN485",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Kochi",
+      "to": "Kolkata",
+      "distanceKm": 1460
+    },
+    "departure": "08:15",
+    "arrival": "10:45",
+    "passengers": 103,
+    "seatsAvailable": 13,
+    "fare": 4306,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL039",
+    "airline": "Akasa Air",
+    "flightNumber": "AK728",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Lucknow",
+      "to": "Kolkata",
+      "distanceKm": 1610
+    },
+    "departure": "14:00",
+    "arrival": "07:45",
+    "passengers": 129,
+    "seatsAvailable": 55,
+    "fare": 6514,
+    "baggageLimitKg": 30,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL040",
+    "airline": "Air India",
+    "flightNumber": "AI285",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Kolkata",
+      "to": "Kochi",
+      "distanceKm": 703
+    },
+    "departure": "08:45",
+    "arrival": "13:45",
+    "passengers": 185,
+    "seatsAvailable": 22,
+    "fare": 4799,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL041",
+    "airline": "IndiGo",
+    "flightNumber": "IN375",
+    "aircraft": "Boeing 737 MAX",
+    "route": {
+      "from": "Goa",
+      "to": "Delhi",
+      "distanceKm": 872
+    },
+    "departure": "06:30",
+    "arrival": "05:45",
+    "passengers": 117,
+    "seatsAvailable": 40,
+    "fare": 5068,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL042",
+    "airline": "IndiGo",
+    "flightNumber": "IN270",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Chennai",
+      "to": "Ahmedabad",
+      "distanceKm": 2391
+    },
+    "departure": "16:15",
+    "arrival": "19:15",
+    "passengers": 107,
+    "seatsAvailable": 1,
+    "fare": 3937,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL043",
+    "airline": "Vistara",
+    "flightNumber": "VI260",
+    "aircraft": "Airbus A320",
+    "route": {
+      "from": "Pune",
+      "to": "Srinagar",
+      "distanceKm": 513
+    },
+    "departure": "07:45",
+    "arrival": "10:15",
+    "passengers": 204,
+    "seatsAvailable": 44,
+    "fare": 13040,
+    "baggageLimitKg": 20,
+    "status": "Delayed"
+  },
+  {
+    "flightId": "FL044",
+    "airline": "SpiceJet",
+    "flightNumber": "SP176",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Goa",
+      "to": "Mumbai",
+      "distanceKm": 2461
+    },
+    "departure": "22:15",
+    "arrival": "18:30",
+    "passengers": 169,
+    "seatsAvailable": 27,
+    "fare": 4952,
+    "baggageLimitKg": 25,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL045",
+    "airline": "Vistara",
+    "flightNumber": "VI246",
+    "aircraft": "Boeing 737",
+    "route": {
+      "from": "Hyderabad",
+      "to": "Mumbai",
+      "distanceKm": 1275
+    },
+    "departure": "02:45",
+    "arrival": "10:30",
+    "passengers": 153,
+    "seatsAvailable": 25,
+    "fare": 8639,
+    "baggageLimitKg": 30,
+    "status": "Boarding"
+  },
+  {
+    "flightId": "FL046",
+    "airline": "SpiceJet",
+    "flightNumber": "SP429",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Varanasi",
+      "to": "Bengaluru",
+      "distanceKm": 1680
+    },
+    "departure": "23:15",
+    "arrival": "15:00",
+    "passengers": 178,
+    "seatsAvailable": 31,
+    "fare": 5483,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL047",
+    "airline": "IndiGo",
+    "flightNumber": "IN747",
+    "aircraft": "Airbus A321",
+    "route": {
+      "from": "Kochi",
+      "to": "Mumbai",
+      "distanceKm": 1423
+    },
+    "departure": "20:45",
+    "arrival": "08:30",
+    "passengers": 158,
+    "seatsAvailable": 20,
+    "fare": 6471,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL048",
+    "airline": "Akasa Air",
+    "flightNumber": "AK756",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Chennai",
+      "to": "Lucknow",
+      "distanceKm": 557
+    },
+    "departure": "01:00",
+    "arrival": "08:00",
+    "passengers": 167,
+    "seatsAvailable": 42,
+    "fare": 9508,
+    "baggageLimitKg": 30,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL049",
+    "airline": "Akasa Air",
+    "flightNumber": "AK307",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Srinagar",
+      "to": "Bengaluru",
+      "distanceKm": 1564
+    },
+    "departure": "02:15",
+    "arrival": "12:15",
+    "passengers": 149,
+    "seatsAvailable": 56,
+    "fare": 13051,
+    "baggageLimitKg": 15,
+    "status": "On Time"
+  },
+  {
+    "flightId": "FL050",
+    "airline": "Vistara",
+    "flightNumber": "VI186",
+    "aircraft": "Boeing 787",
+    "route": {
+      "from": "Mumbai",
+      "to": "Chennai",
+      "distanceKm": 1101
+    },
+    "departure": "04:15",
+    "arrival": "05:15",
+    "passengers": 212,
+    "seatsAvailable": 42,
+    "fare": 14756,
+    "baggageLimitKg": 20,
+    "status": "On Time"
+  }
+]
